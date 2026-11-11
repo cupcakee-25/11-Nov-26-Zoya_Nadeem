@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Studio | Creative Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a class="logo" href="#home">bloom<span>.</span></a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-btn">Let's Talk ↗</a>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <span class="tag">✦ CREATIVE DIGITAL STUDIO</span>
+        <h1>Make your ideas<br>
+            <span>Bloom beautifully.</span>
+        </h1>
+        <p>
+            We create beautiful digital experiences
+            that make your brand stand out and shine.
+        </p>
+        <div class="hero-buttons">
+            <a href="#services" class="primary-btn">Explore More ↗</a>
+            <a href="#about" class="secondary-btn">Discover Us</a>
+        </div>
+    </div>
+
+    <div class="hero-art">
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+        <div class="floating-card">
+            <span>✿</span>
+            <h3>Creativity</h3>
+            <p>Made with love.</p>
+        </div>
+        <div class="sparkle">✦</div>
+    </div>
+</section>
+
+<section class="about section" id="about">
+    <div class="section-label">WHO WE ARE</div>
+    <h2>Creativity meets<br><span>simplicity.</span></h2>
+    <p class="about-text">
+        We believe every great idea deserves a beautiful
+        digital home. Our mission is to create meaningful,
+        modern and memorable experiences for everyone.
+    </p>
+</section>
+
+<section class="services section" id="services">
+    <div class="section-label">WHAT WE DO</div>
+    <h2>Our Creative <span>Services</span></h2>
+
+    <div class="service-grid">
+        <div class="service-card pink">
+            <div class="icon">✿</div>
+            <h3>Web Design</h3>
+            <p>Beautiful layouts and modern designs for your brand.</p>
+            <a href="#contact">Learn More ↗</a>
+        </div>
+
+        <div class="service-card purple">
+            <div class="icon">✧</div>
+            <h3>Development</h3>
+            <p>Responsive and powerful websites built with care.</p>
+            <a href="#contact">Learn More ↗</a>
+        </div>
+
+        <div class="service-card blue">
+            <div class="icon">♡</div>
+            <h3>Brand Identity</h3>
+            <p>Unique visual identities that tell your story.</p>
+            <a href="#contact">Learn More ↗</a>
+        </div>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <div class="section-label">GET IN TOUCH</div>
+    <h2>Let's create something <span>lovely.</span></h2>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Tell us about your idea..." required></textarea>
+        <button type="submit" class="primary-btn">Send Message ↗</button>
+        <p id="formMessage"></p>
+    </form>
+</section>
+
+<footer>
+    <a class="logo" href="#home">bloom<span>.</span></a>
+    <p>Made with ♡ and creativity.</p>
+    <p>© 2026 Bloom Studio. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
